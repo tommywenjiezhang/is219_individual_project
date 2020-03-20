@@ -1,0 +1,27 @@
+{
+  "name": "group_project_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "jsdoc": "jsdoc",
+    "jsdoc2md": "jsdoc-to-markdown"
+  },
+  "author": "Wenjie_Zhang&Anjali",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "jsdoc-to-markdown": "^5.0.3"
+  },
+  "dependencies": {
+    "jstat": "^1.9.2",
+    "path": "^0.12.7",
+    "simple-statistics": "^7.0.8"
+  }
+}
